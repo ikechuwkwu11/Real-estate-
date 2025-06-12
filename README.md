@@ -1,35 +1,46 @@
-Real Estate Web App (Flask)
+# 🏘️ Real Estate Web App (Flask)
+A lightweight, functional real estate web application built with Flask, Flask-Login, and SQLAlchemy. Users can register, log in, view available properties, and simulate property purchases with the generation of a one-time access code for each purchase.
 
-This is a simple real estate web application built with Flask, Flask-Login, and SQLAlchemy. It allows users to register, log in, view available properties, and purchase properties to receive a one-time access code.
-
-Features
-- User Registration & Login
-- Dashboard with Property Listings
-- Buy Properties (one-time access code generated per purchase)
-- Protected Routes with Login Required
-- SQLite database with SQLAlchemy ORM
+## 🚀 Features
+👤 User Authentication
+- User Registration and Login
 - Session management using Flask-Login
+- Protected Routes to restrict access to authenticated users
 
-Requirements
+## 🏠 Property Management
+- View all available property listings
+- Simulate buying a property
+- Generate a unique one-time access code per purchase
+
+## 🛠 Tech Stack
+- Layer	Technology
+- Backend	Python, Flask
+- Database	SQLite + SQLAlchemy ORM
+- Auth	Flask-Login
+- Forms	WTForms (if used)
+- Templating	Jinja2
+- Styling (TBD)	Bootstrap (optional)
+
+## 🧪 Requirements
 - Flask
-- Flask-SQLAlchemy
 - Flask-Login
-- WTForms (if used in form.py)
+- Flask-SQLAlchemy
+- WTForms (if using form.py)
 
-Usage
-- Visit http://127.0.0.1:5000/register to create a new account.
-- Log in at /login
-- View all properties on the /dashboard
-- Click a property to "buy" it and receive a unique access code.
+## 💻 Usage
+- Access the Web App
+- Register at: http://127.0.0.1:5000/register
+- Login at: http://127.0.0.1:5000/login
+- Browse properties at: /dashboard
+- Click to "buy" a property and receive a unique access code
+- Logout via /logout
 
-Log out from /logout
+## 🔒 Security Notice
+⚠️ User passwords are currently stored in plaintext
+It is strongly recommended to implement password hashing using werkzeug.security or similar.
 
-✅ To-Do
-Add admin functionality to add/manage properties
-
-Hash user passwords (currently stored in plaintext!)
-
-Add styling with Bootstrap or custom CSS
-
-Deploy to a platform like Render, Railway, or Heroku
-
+## ✅ To-Do
+- Add admin dashboard for managing property listings
+- Hash and securely store user passwords
+- Add styling using Bootstrap or custom CSS
+- Deploy to a platform like Render, Railway, or Heroku
