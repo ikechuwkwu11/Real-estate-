@@ -23,6 +23,7 @@ A lightweight, functional real estate web application built with Flask, Flask-Lo
 | Styling    | Bootstrap (optional)    |
 
 
+
 ## 🧪 Requirements
 - Flask
 - Flask-Login
