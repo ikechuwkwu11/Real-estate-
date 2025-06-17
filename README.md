@@ -13,13 +13,15 @@ A lightweight, functional real estate web application built with Flask, Flask-Lo
 - Generate a unique one-time access code per purchase
 
 ## 🛠 Tech Stack
-- Layer	Technology
-- Backend	Python, Flask
-- Database	SQLite + SQLAlchemy ORM
-- Auth	Flask-Login
-- Forms	WTForms (if used)
-- Templating	Jinja2
-- Styling (TBD)	Bootstrap (optional)
+| Layer      | Technology              |
+| ---------- | ----------------------- |
+| Backend    | Python, Flask           |
+| Database   | SQLite + SQLAlchemy ORM |
+| Auth       | Flask-Login             |
+| Forms      | WTForms (optional)      |
+| Templating | Jinja2                  |
+| Styling    | Bootstrap (optional)    |
+
 
 ## 🧪 Requirements
 - Flask
